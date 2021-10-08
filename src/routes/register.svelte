@@ -27,11 +27,7 @@
 				<p class="text-xs-center">
 					<a href="/login">Have an account?</a>
 				</p>
-				{#if error}
-					<div class="alert alert-danger" role="alert">
-						{error}
-					</div>
-				{/if}
+
 
 				<form on:submit|preventDefault={submit}>
 					<fieldset class="form-group">
