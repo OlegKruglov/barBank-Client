@@ -54,6 +54,7 @@
 
 <nav>
 	<ul>
+
 		{#if $session.token}
 			<li><a aria-current="{segment === 'logout' ? 'page' : undefined}" href="logout" on:click|preventDefault={logout}>log out</a></li>
 		{:else}
